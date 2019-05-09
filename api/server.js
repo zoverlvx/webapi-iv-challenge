@@ -1,5 +1,5 @@
-import express from "express";
-import helmet from "helmet";
+const express = require("express");
+const helmet = require("helmet");
 
 const server = express();
 
@@ -20,4 +20,4 @@ server.get("/", async (req, res) => {
 	}
 });
 
-export default server;
+module.exports = server;
