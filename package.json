@@ -1,6 +1,6 @@
 { "scripts": {
-	"server": "nodemon index.mjs",
-	"start": "node index.mjs"
+	"server": "nodemon --experimental-modules index.mjs",
+	"start": "node --experimental-modules index.mjs"
   },
   "dependencies": {
     "dotenv": "^8.0.0",
